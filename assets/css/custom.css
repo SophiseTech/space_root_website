@@ -124,6 +124,15 @@
 .text-box div:nth-child(3){
 	animation: rollDown3 10s forwards infinite;
 }
+.content-title{
+  color: white !important;
+}
+.product-content a{
+  color: #fe7865 !important;
+}
+.single-services p{
+  font-size: 14px !important;
+}
 
 @keyframes rollDown {
 	0%{
