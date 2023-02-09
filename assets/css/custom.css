@@ -133,6 +133,14 @@
 .single-services p{
   font-size: 14px !important;
 }
+.pa{
+  width: 100% !important;
+}
+.prod-top{
+  border: 1px solid #ddd;
+  padding: 3em;
+  border-radius: 10px;
+}
 
 @keyframes rollDown {
 	0%{
@@ -240,5 +248,8 @@
     right: 0;
     bottom: 0;
     background-color: rgba(16, 24, 32, 0.499);
+  }
+  .prod-top{
+    padding: 1em;
   }
 }
