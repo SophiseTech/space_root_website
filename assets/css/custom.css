@@ -1,5 +1,6 @@
 .body{
   /* background-color:  #101820FF; */
+  scroll-behavior: smooth;
 }
 .hero-top{
   height: 100vh;
