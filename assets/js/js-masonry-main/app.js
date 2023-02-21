@@ -1,4 +1,24 @@
-const container = document.querySelector('.container');
+const container = document.querySelector('.cont-prod');
+// const childs = container.childNodes
+// console.log(childs);
+const posts = [];
+const images = [
+'/assets/drones/4/1.png',
+'/assets/drones/4/2.png',
+'/assets/drones/4/3.png',
+'/assets/drones/4/4.png',
+];
+let imageIndex = 0;
+for (let i = 1; i <= images.length; i++) {
+let item = {
+    id: i,
+    title: `Post ${i}`,
+    image: images[imageIndex],
+};
+posts.push(item);
+imageIndex++;
+if (imageIndex > images.length - 1) imageIndex = 0;
+}
 
 function generateMasonryGrid(columns, posts) {
   container.innerHTML = '';
