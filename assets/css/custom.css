@@ -64,8 +64,8 @@
 .hero-title button{
   padding: 10px 20px;
   border-radius: 3px;
-  background: #fe7865;
-  border: 1px solid #fe7865;
+  background: #1C6DD0;
+  border: 1px solid #1C6DD0;
   color: white;
   font-weight: bold;
   transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -74,17 +74,17 @@
   width: 50%;
 }
 .hero-title button:hover{
-  background: #fe7865;
+  background: #1C6DD0;
 
   color: #fffaf6;
 }
 .hero-title h1{
-  color: #fe7865;
+  color: #1C6DD0;
   font-size: 55px;
   /* text-align: end; */
   line-height: 1.3em;
   letter-spacing: 1px;
-  /* text-shadow: 0px 0px 3px #fe7865; */
+  /* text-shadow: 0px 0px 3px #1C6DD0; */
   animation: slideColor 10s forwards infinite;
 }
 /* rolling animation */
@@ -129,7 +129,7 @@
   color: white !important;
 }
 .product-content a{
-  color: #fe7865 !important;
+  color: #1C6DD0 !important;
 }
 .single-services p{
   font-size: 14px !important;
@@ -171,7 +171,7 @@
   filter: brightness(.5);
 }
 .prod-read-more{
-  color: #fe7865;
+  color: #1C6DD0;
   font-weight: 600;
   display: flex;
   justify-content: flex-end;
@@ -245,16 +245,16 @@
 }
 @keyframes slideColor{
 	0%{
-		color: #fe7865;
+		color: #1C6DD0;
 	}
 	33%{
-		color: #ff4f37;
+		color: #166eda;
 	}
 	66%{
-		color: #ff3a20;
+		color: #0f6ee3;
 	}
 	100%{
-		color: #fe7865;
+		color: #1C6DD0;
 	}
 }
 
